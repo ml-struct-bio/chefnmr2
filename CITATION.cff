@@ -1,0 +1,67 @@
+# The preferred citation is the preprint; the reference below is the earlier NeurIPS 2025 paper. Version and
+# licence as in pyproject.toml and LICENSE.
+cff-version: 1.2.0
+message: "If you use ChefNMR2, please cite the preprint below."
+title: "ChefNMR2"
+type: software
+version: "0.1.0"
+license: MIT
+repository-code: "https://github.com/ml-struct-bio/chefnmr2"
+authors:
+  - family-names: Xiong
+    given-names: Ziyu
+preferred-citation:
+  type: article
+  title: "Small molecule structure elucidation from NMR spectra with generative and reasoning models"
+  authors:
+    - family-names: Xiong
+      given-names: Ziyu
+    - family-names: Ying
+      given-names: Vanessa Y.
+    - family-names: Huang
+      given-names: Jonathan Z.
+    - family-names: Koch
+      given-names: Zane
+    - family-names: Clark
+      given-names: Joseph D.
+    - family-names: Heeter
+      given-names: Robert C.
+    - family-names: An
+      given-names: Joon Soo
+    - family-names: Matanachai
+      given-names: Karit
+    - family-names: Rodriques
+      given-names: Samuel G.
+    - family-names: White
+      given-names: Andrew D.
+    - family-names: Seyedsayamdost
+      given-names: Mohammad R.
+    - family-names: Zhong
+      given-names: Ellen D.
+  year: 2026
+  journal: "bioRxiv"
+  doi: "10.64898/2026.10.29.762711"
+references:
+  - type: conference-paper
+    title: "Atomic diffusion models for small molecule structure elucidation from NMR spectra"
+    authors:
+      - family-names: Xiong
+        given-names: Ziyu
+      - family-names: Zhang
+        given-names: Yichi
+      - family-names: Alauddin
+        given-names: Foyez
+      - family-names: Cheng
+        given-names: Chu Xin
+      - family-names: An
+        given-names: Joon Soo
+      - family-names: Seyedsayamdost
+        given-names: Mohammad R.
+      - family-names: Zhong
+        given-names: Ellen D.
+    collection-title: "Advances in Neural Information Processing Systems"
+    volume: 38
+    start: 128593
+    end: 128629
+    year: 2025
+    doi: "10.52202/085713-3868"

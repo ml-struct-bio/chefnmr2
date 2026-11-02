@@ -1,0 +1,29 @@
+# ChefNMR2 (public release; exported from the internal repository by tools/release/export.py).
+# Local inference with the released checkpoints, and the rule that judges a prediction; pins mirror the environment the paper's numbers and the
+# release checks were made in.
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chefnmr2"
+version = "0.1.0"
+description = "Planar structures from 1H and 13C NMR spectra and a molecular formula (ChefNMR2)"
+readme = "README.md"
+requires-python = "==3.11.*"
+dependencies = [
+    "torch==2.5.1",
+    "numpy==2.2.2",
+    "rdkit==2025.9.4",
+    "omegaconf==2.3.0",
+    "einops==0.8.1",
+    "PyYAML==6.0.2",
+]
+
+[project.optional-dependencies]
+test = ["pytest==8.4.1"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["chefnmr2*"]
