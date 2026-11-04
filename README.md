@@ -27,9 +27,9 @@ ChefNMR2 works in a chat app through MCP, the Model Context Protocol, an open st
 
 What you need: a Claude or ChatGPT Plus account and a free Hugging Face account. ChefNMR2 runs on Hugging Face's shared GPUs (ZeroGPU), and each call uses the daily GPU time of the Hugging Face account you sign in with.
 
-1. Add the connector, with the address `https://huggingface.co/mcp?login&bouquet=no_gradio_images&gradio=ziyux123/chefnmr2`.
+1. Add ChefNMR2 to your chat app, with the address `https://huggingface.co/mcp?login&bouquet=no_gradio_images&gradio=ziyux123/chefnmr2`.
    - **Claude** (claude.ai or the desktop app): open **Customize > Connectors**, click **+ Add** and then **Add custom connector**. Name it `chefnmr2`, paste the address, choose **Sign in now** and click **Add**. On a Team or Enterprise plan, ask an Owner to add it for the whole organization; each member then connects it and signs in.
-   - **ChatGPT or Codex**: add a custom MCP server named `chefnmr2` with the address, then connect it.
+   - **ChatGPT or Codex**: open **Plugins** and add a custom MCP server named `chefnmr2` with the address, then connect it.
 2. Sign in to Hugging Face on the page that opens, or make a free account there.
 3. Ask for a structure. Paste the formula and peak lists in any format, for example:
 
